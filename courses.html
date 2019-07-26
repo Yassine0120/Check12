@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Formation/css/style.css" />
+    <title>checkpoint</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  </head>
+  <body>
+  <center>
+      <ul class="ph">
+          <li>   <img height="50px" width="50px" class="photo" src="./Formation/res/section2GMCLogo.png" />
+          </li>
+         
+           <li>
+             <h1><a href="index.html">Home</a></h1>
+           </li>
+           <li>
+             <h1><a href="courses.html">Courses</a></h1>
+           </li>
+           <li>
+             <h1><a href="contact.html">Contact</a></h1>
+           </li>
+         </ul>
+        </center> 
+    <center>
+      <div>
+        <div class="back">
+          <h1>COURSES</h1>
+        </div>
+        <div class="ll">
+        <img class="image1" src="./Formation/res/1.png" />
+        <button class="pt1"><a href="#ex1" rel="modal:open">View more</a></button>
+      </div>
+      <div id="ex1" class="modal">
+          <p>This Go My Code Track.</p>
+          <p>Each track has its own goal.</p>
+          <p>By adopting this track, you choose your own goal.</p>
+          <a href="#" rel="modal:close">Close</a>
+        </div>
+        
+      <div class="ll">
+        <img class="image1" src="./Formation/res/2.png" />
+        <button class="pt1"><a href="#ex1" rel="modal:open">View more</a></button>
+      </div>
+      <div class="ll">
+        <img class="image1" src="./Formation/res/3.png" />
+        <button class="pt1"><a href="#ex1" rel="modal:open">View more</a></button>
+        </div>
+        <img class="image1" width="30%" src="./Formation/res/6.jpg" />
+        <img class="image1" width="30%" src="./Formation/res/6.jpg" />
+        <img class="image1" width="30%" src="./Formation/res/6.jpg" />
+        <img class="image1" width="30%" src="./Formation/res/1.png" />
+        <img class="image1" width="30%" src="./Formation/res/3.png" />
+        <img class="image1" width="30%" src="./Formation/res/2.png" />
+        <h3>Feedback</h3>
+        <form>
+          <button type="button" onclick="Bld()">B</button>
+          <button type="button" onclick="Bld1()">I</button>
+          <button type="button" onclick="Bld2()">Underline</button>
+          <select onchange="Bld3()" id="bld33">
+            <option>20px</option>
+            <option>30px</option>
+            <option>40px</option>
+          </select>
+          <select onchange="Bld4()" id="bld44"> 
+            <option>Arial</option>
+            <option>Verdana</option>
+            <option>Geneva</option>
+          </select>
+          <br />
+          <textarea cols="50" rows="20" Id="fin0"></textarea>
+        </form>
+      </div>
+    </center>
+  </body>
+  <script src="Formation/js/main.js"></script>
+</html>
